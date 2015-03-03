@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>buscaminas</title>
+        <script type='text/javascript' src='buscaminas2.js'></script>
+    </head>
+    <body onload='__init__()'>
+        <div id='opciones'>
+            <p>¿cuantas bombas quiere?<input type='text' id='nBombs' maxlength='2' onblur='checkTxtBox()' size='2'></input></p>
+        </div>
+        <div id='gameplay'>
+            <table>
+                <tr>
+                    <td colspan='5' align='center'>
+                        <input type='button' value='carita feliz' onclick='__initOnPlay__()'></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span id='_0_0' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_0_1' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_0_2' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_0_3' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_0_4' onclick='checkBomb(id)'></span></td>
+                </tr>
+                <tr>
+                    <td><span id='_1_0' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_1_1' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_1_2' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_1_3' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_1_4' onclick='checkBomb(id)'></span></td>
+                </tr>
+                <tr>
+                    <td><span id='_2_0' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_2_1' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_2_2' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_2_3' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_2_4' onclick='checkBomb(id)'></span></td>
+                </tr>
+                <tr>
+                    <td><span id='_3_0' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_3_1' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_3_2' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_3_3' onclick='checkBomb(id)'></span></td>
+                    <td><span id='_3_4' onclick='checkBomb(id)'></span></td>
+                </tr>
+            </table>
+        </div>
+        <div id='arr'>
+        </div>
+    </body>
+</html>
